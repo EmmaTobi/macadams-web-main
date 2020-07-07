@@ -1,0 +1,93 @@
+.banner{
+    min-height: 150px;
+    background-color: #022e5d;
+    margin-top: 80px;
+}
+.hide-top-nav{
+    visibility: hidden;
+    display: none;
+}
+
+.login-bottom{
+    margin-top: 50px;
+}
+.login-bottom .topic h3{
+   font-weight: 700;
+   
+}
+.login-bottom  .panels{
+  padding: 40px 50px;
+}
+.login-bottom .login-side, 
+.login-bottom .login-right{
+    border: 1px solid #DFDFDF;
+    border-radius: 2px;
+    min-height: 360px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding: 20px 20px;
+}
+.login-side h3,
+.login-right h3{
+    font-size: 18px;
+    font-weight: 800;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.login-side p,
+.login-right p{
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.8;
+    padding-top: 4px;
+    line-height: 24px;
+}
+
+.login-side .btn,
+.login-right .btn{
+    margin-top: 6px;
+    padding: 10px 30px;
+    outline: none;
+    color: white;
+    font-size: 11px;
+    background-color: #022e5d;
+    font-weight: 800;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.login-right .formcustom label{
+    font-size: 13px;
+    font-weight: 750;
+    opacity: 0.8;
+    display: block;
+}
+
+.login-right .formcustom input{
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #EFEFEF;
+    padding: 12px 12px;
+    border-radius: 0px;
+    border: 0px solid black;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    display: block;
+    width: 100%;
+}
+
+.login-right .formcustom a.btn{
+   background-color: transparent;
+   color: #022e5d;
+   padding: 2px 2px 2px 6px;
+   font-size: 12px;
+}
